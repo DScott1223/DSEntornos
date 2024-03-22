@@ -1,5 +1,5 @@
 package exepciones.articulos;
-
+//Cambio Commit am
 public class Electronico extends Articulo {
 double impuesto;
 
