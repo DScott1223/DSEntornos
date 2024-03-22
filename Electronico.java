@@ -9,15 +9,11 @@ public Electronico(String nombre, double precio, double impuesto) {
 	this.impuesto = impuesto;
 }
 
-@Override
-public int compareTo(Object o) {
-	// TODO Auto-generated method stub
-	return 0;
-}
+
 
 @Override
 public double calcularPrecioFinal() {
-	return precio+ impuesto;
-} 
+	return (precio * (impuesto/100)+1);
+}
 
 }

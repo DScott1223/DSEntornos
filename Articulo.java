@@ -39,4 +39,24 @@ public double getPrecio() {
 public void setPrecio(double precio) {
 	this.precio = precio;
 }
+
+
+	@Override
+	public int compareTo(Object o) {
+		if (o.getClass().equals(Electronico.class) && ((Electronico) o).calcularPrecioFinal() == this.calcularPrecioFinal()) {
+			return 0;
+		} else if (o.getClass().equals(Electronico.class) && ((Electronico) o).calcularPrecioFinal() < this.calcularPrecioFinal()) {
+			return 1;
+		} else if (o.getClass().equals(Prenda.class) && ((Prenda) o).calcularPrecioFinal() == this.calcularPrecioFinal()) {
+			return 0;
+		} else if (o.getClass().equals(Prenda.class) && ((Prenda) o).calcularPrecioFinal() < this.calcularPrecioFinal()) {
+			return 1;
+		} else {
+			return -1;
+		}
+	}
+
+
 }
+
+

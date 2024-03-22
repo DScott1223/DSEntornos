@@ -12,12 +12,6 @@ public Prenda(String nombre, double precio, String talla) {
 }
 
 @Override
-public int compareTo(Object o) {
-	// TODO Auto-generated method stub
-	return 0;
-}
-
-@Override
 public double calcularPrecioFinal() {
 	// TODO Auto-generated method stub
 	return precio;
