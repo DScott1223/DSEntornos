@@ -1,10 +1,10 @@
 package exepciones.articulos;
-//Cambio1	2	3	4	5 Cambio rama 3
+//Cambio1	2	3	4	5 Cambio rama 2
 
 public abstract class Articulo implements Comparable {
 String nombre; double precio;  
 
-
+//cambio merge
 
 public Articulo(String nombre, double precio) {
 	super();
