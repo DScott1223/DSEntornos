@@ -1,5 +1,5 @@
 package exepciones.articulos;
-//Cambio1	2	3	4
+//Cambio1	2	3	4	5
 public class Electronico extends Articulo {
 double impuesto;
 
