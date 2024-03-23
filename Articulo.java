@@ -1,5 +1,5 @@
 package exepciones.articulos;
-//Cambio#1
+//Cambio1
 
 public abstract class Articulo implements Comparable {
 String nombre; double precio;  
