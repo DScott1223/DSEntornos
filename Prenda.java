@@ -1,5 +1,5 @@
 package exepciones.articulos;
-//Cambio2 
+//Cambio2	3 
 public class Prenda extends Articulo {
 String talla;
 
